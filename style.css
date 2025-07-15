@@ -47,6 +47,18 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.conference-logo {
+    height: 60px; /* adjust as needed */
+    width: auto;
+}
+
 footer {
     text-align: center;
     padding: 10px;
