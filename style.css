@@ -4,3 +4,23 @@ header { background:#333; color:#fff; padding:1em 0; text-align:center; }
 nav a { color:#fff; margin:0 15px; text-decoration:none; }
 main { padding:20px; background:#fff; max-width:800px; margin:20px auto; box-shadow:0 0 10px rgba(0,0,0,0.1); }
 footer { text-align:center; padding:10px; background:#333; color:#fff; position:fixed; width:100%; bottom:0; }
+
+.hero-image {
+    background-image: url('home-banner.jpg');
+    height: 90vh; /* almost full screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 10px;
+}
