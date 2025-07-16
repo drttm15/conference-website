@@ -4,15 +4,42 @@ html, body {
     padding: 0;
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    background: #f9f9f9;
+    background: #f9f9f9; /* Default background color */
     color: #333;
 }
 
 header {
-    background: #333;
+    background: #333;  /* You can change this to any color you prefer */
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* Align logos left and right */
+    gap: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+
+.conference-logo {
+    height: 60px; /* adjust as needed */
+    width: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 80px;  /* Adjust space from the top for the logos */
+}
+
+nav {
+    margin-top: 20px;
 }
 
 nav a {
@@ -47,18 +74,6 @@ nav a:hover {
     border-radius: 8px;
 }
 
-.header-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 10px 20px;
-}
-
-.conference-logo {
-    height: 60px; /* adjust as needed */
-    width: auto;
-}
-
 footer {
     text-align: center;
     padding: 10px;
@@ -66,24 +81,7 @@ footer {
     color: #fff;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
-}
-table th, table td {
-    border: 1px solid #ddd;
-    padding: 12px 15px;
-    text-align: left;
-}
-table th {
-    background-color: #333;
-    color: white;
-}
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-table tr:hover {
-    background-color: #ddd;
+/* To change the background color, adjust the .hero-image section or specific elements here */
+.hero-image {
+    background-color: #2e3b4e;  /* Example for changing the background color directly */
 }
